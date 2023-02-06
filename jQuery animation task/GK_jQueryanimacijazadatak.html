@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Assignment - jQuery biblioteka</title>
+	<script
+		src="https://code.jquery.com/jquery-3.6.0.js"
+		integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+		crossorigin="anonymous">
+	</script>
+</head>
+<body>
+    <div class="obj1" style="position:relative; margin:25px; background:red; width:50px; height: 50px"></div>
+    <div class="obj2" style="position:relative; margin:25px; background:green; width:50px; height:50px"></div>
+    <div class="obj3" style="position:relative; margin:25px; background:blue; width:50px; height:50px"></div>
+    <div class="obj4" style="position:relative; margin:25px; background:yellow; width:50px; height:50px"></div>
+</body>
+<script>
+	$(document).ready(function(){ 
+		$("div").animate({right:-1366}, {duration:4000}).animate({left:0}, {duration:4000});
+		$(".obj1").click(function(){ $(this).animate({"width":100},{queue:false}).animate({"height":100},{queue:false}) });
+		$(".obj3").click(function(){ $(this).animate({"width":100},{queue:false}).animate({"height":100},{queue:false}) });
+		$(".obj1").mouseenter(function(){ $(this).css({"background-color":"pink"}).mouseleave(function(){$(".obj1").css({"background-color":"red"}); }) });
+		$(".obj3").mouseenter(function(){ $(this).css({"background-color":"cyan"}).mouseleave(function(){$(".obj3").css({"background-color":"blue"}); }) });
+	});
+</script>
+</html>
