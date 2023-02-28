@@ -2,7 +2,7 @@
 class Baza{
     private $server="localhost";
     private $username="root";
-    private $password="";
+    private $password="K3ruyJB5oYunsx";
     private $database="gordan_kranjcic_newsapp";
     private $db;
 
