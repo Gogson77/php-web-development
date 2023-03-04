@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+body {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color: #FFFFFF;
+}
+
+a:link, 
+a:visited {
+	color: #113C51;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #A5BAC4;
+	text-decoration: none;
+}
+
+a:active {
+	color: #032536;
+	text-decoration: none;
+}
+
+#wrapper {
+	width: 960px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	margin: 0px auto;
+	background-color: #CDD9DE;
+}
+
+#central {
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+
+#SiteHeader  {
+	height: 60px;
+	background-color: #477286;
+}
+
+#logo   {
+	float: left;
+}
+
+#logo a  {
+	display: block;
+}
+
+#logo img  {
+}
+
+nav  {
+	float: right;
+}
+
+nav ul  {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+nav ul li  {
+	float: left;
+	width: 90px;
+}
+
+nav ul li a  {
+	padding: 10px 20px;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	text-align: center;
+	border-left: 1px solid #6E91A1;
+	color: #113C51;
+}
+
+nav ul li a:link,nav ul li a:visited {
+	color: #113C51;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #6E91A1;
+	text-decoration: none;
+	background: #032536;
+}
+
+nav ul li a:active {
+	color: #032536;
+	background: #6E91A1;
+}
+
+ul li .socialmedia {
+	height: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#SiteMain  {
+	width: 600px;
+	padding-right: 20px;
+	padding-left: 20px;
+	float: left;
+	background-color: #6E91A1;
+}
+
+.MainArticle    {
+	text-align: left;
+}
+
+
+.MainArticleHeader   {
+	background-color: #477286;
+	text-align: center;
+}
+#formContact {
+	margin-bottom: 20px;
+
+}
+
+
+#MainArticleFooter   {
+	background-color: #477286;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.MainSection {
+	overflow: hidden;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: #032536;
+}
+
+#MainSectionA1 {
+	float: left;
+	width: 280px;
+	text-align: justify;
+
+}
+
+#MainSectionA2 {
+	float: right;
+	width: 280px;
+	text-align: justify;
+}
+
+#MainAdditionalArticleMain   {
+	width: 380px;
+	float: left;
+}
+
+#MainAddArticleImgleft {
+
+}
+
+#MainAdditionalArticleAside {
+	float: right;
+	width: 200px;
+	font-style: italic;
+}
+
+.resetfloat {
+	overflow: hidden;
+}
+
+#SiteAside {
+	width: 260px;
+	padding-right: 20px;
+	padding-left: 20px;
+	float: right;
+	background-color: #6E91A1;
+}
+
+.SiteAsideArticle {
+	text-align: left;
+	color: #032536;
+	font-style: italic;
+}
+
+#SiteAsideSection {
+	background-color: #477286;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-align: left;
+	font-style: italic;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.listLeft {
+
+}
+
+
+#SiteFooter {
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	height: 30px;
+	background-color: #477286;
+	text-align: right;
+	font-style: italic;
+}
+.imgLeft {
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	background-color: #A5BAC4;
+}
